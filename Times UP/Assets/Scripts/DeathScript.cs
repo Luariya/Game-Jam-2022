@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class DeathScript : MonoBehaviour
 {
+    public GameObject objectToActivateAndDeactivate;
     // Start is called before the first frame update
     void Start()
     {
-        
+        objectToActivateAndDeactivate.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class DeathScript : MonoBehaviour
         {
             Time.timeScale = 0;
             Destroy(gameObject);
-
+            objectToActivateAndDeactivate.SetActive(true);
         }
     }
 }
