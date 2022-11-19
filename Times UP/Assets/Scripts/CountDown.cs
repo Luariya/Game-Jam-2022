@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
+    public GameObject objectToActivateAndDeactivate;
     float currentTime = 0f;
     float startingTime = 10f;
 
@@ -32,11 +33,16 @@ public class CountDown : MonoBehaviour
         {
             countdownText.color = Color.red;
         }
+        else
+        {
+            countdownText.color = Color.white;
+        }
 
         if (currentTime <= 0)
         {
             Time.timeScale = 0;
             Destroy(GameObject.FindWithTag("Player"));
+            objectToActivateAndDeactivate.SetActive(true);
         }
     }
 }
