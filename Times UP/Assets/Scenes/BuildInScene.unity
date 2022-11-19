@@ -18668,7 +18668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aaacd732130b8b48be86ba8beed3001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivateAndDeactivate: {fileID: 692809039}
+  objectToActivateAndDeactivate: {fileID: 0}
   countdownText: {fileID: 457864157}
 --- !u!1001 &1619846818
 PrefabInstance:
@@ -25019,6 +25019,22 @@ PrefabInstance:
     - target: {fileID: 8201210942991402373, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.65239334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.65239334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00948
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.6738033
       objectReference: {fileID: 0}
     - target: {fileID: 8201210942991402376, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
       propertyPath: m_CollisionDetection
