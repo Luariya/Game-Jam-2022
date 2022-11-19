@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public string StartGame;
     public string Abspann;
-
+    public string HomeMenu;
 
 
 
@@ -18,7 +18,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(StartGame);
     }
 
-
+    public void TitleMenu()
+    {
+        SceneManager.LoadScene(HomeMenu);
+    }
 
 
 
