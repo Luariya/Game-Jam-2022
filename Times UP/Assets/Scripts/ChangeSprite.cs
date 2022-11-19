@@ -9,6 +9,11 @@ public class ChangeSprite : MonoBehaviour
 
     public CountDown countDown;
 
+    [SerializeField] private AudioSource uhr;
+    [SerializeField] private AudioSource kindermukke;
+    [SerializeField] private AudioSource erwachsenenmukke;
+    [SerializeField] private AudioSource techno;
+
     // Start is called before the first frame update
 
     void Start()
@@ -16,6 +21,7 @@ public class ChangeSprite : MonoBehaviour
         child.SetActive(true);
         parent.SetActive(false);
         grandparent.SetActive(false);
+        kindermukke.Play();
     }
 
     // Update is called once per frame
@@ -30,6 +36,9 @@ public class ChangeSprite : MonoBehaviour
             child.SetActive(false);
             parent.SetActive(true);
             grandparent.SetActive(false);
+            kindermukke.Stop();
+            erwachsenenmukke.Play();
+
         }
 
         if (other.tag == "AdultToGrandparent")
@@ -37,9 +46,12 @@ public class ChangeSprite : MonoBehaviour
             child.SetActive(false);
             parent.SetActive(false);
             grandparent.SetActive(true);
+            erwachsenenmukke.Stop();
+            techno.Play();
         }
         if (other.tag == "Powerup")
         {
+            uhr.Play();
             countDown.CurrentTime += 5f;
             Nixon(other.gameObject);
         }
