@@ -7,6 +7,8 @@ TagManager:
   - DeathByCollide
   - Grounded
   - Ground
+  - ChildToAdult
+  - AdultToGrandparent
   layers:
   - Default
   - TransparentFX
