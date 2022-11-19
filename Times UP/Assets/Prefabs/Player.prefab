@@ -217,8 +217,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Offset: {x: -0.00948, y: -0.6738033}
+  m_Size: {x: 0.65239334, y: 0.65239334}
   m_Direction: 0
 --- !u!114 &8201210942991402379
 MonoBehaviour:
@@ -399,7 +399,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0f8fe03950f4b1246872b59ff4cfe447, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.243
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -495,7 +495,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c97855d7d4860684a88935cf912f7229, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.192
   m_Pitch: 1
   Loop: 1
   Mute: 0

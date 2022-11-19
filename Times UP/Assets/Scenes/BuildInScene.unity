@@ -25008,22 +25008,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 586128044, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_Volume
-      value: 0.243
-      objectReference: {fileID: 0}
-    - target: {fileID: 586128045, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_Volume
-      value: 0.192
-      objectReference: {fileID: 0}
-    - target: {fileID: 586128046, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_Pitch
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201210942667214829, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 8201210942962938923, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
       propertyPath: countDown
       value: 
@@ -25031,26 +25015,6 @@ PrefabInstance:
     - target: {fileID: 8201210942991402373, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_Size.x
-      value: 0.65239334
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_Size.y
-      value: 0.65239334
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.00948
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201210942991402374, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.6738033
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201210942991402376, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8201210942991402378, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
       propertyPath: m_RootOrder
@@ -25100,13 +25064,5 @@ PrefabInstance:
       propertyPath: objectToActivateAndDeactivate
       value: 
       objectReference: {fileID: 692809039}
-    - target: {fileID: 8201210944042321285, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201210944063337802, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
