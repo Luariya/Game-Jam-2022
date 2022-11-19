@@ -3,7 +3,7 @@ using UnityEngine;
 public class JumpingChar : MonoBehaviour
 {
     public bool isGrounded = false;
-    [SerializeField] private float jumpPower = 5.0f;
+    
 
     private Rigidbody2D _playerRigidbody;
     private void Start()
