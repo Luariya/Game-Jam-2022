@@ -11,6 +11,11 @@ public class CountDown : MonoBehaviour
 
     [SerializeField] TMP_Text countdownText;
 
+    public float CurrentTime 
+    { 
+        get => currentTime; set => currentTime = value; 
+    }
+
     // Start is called before the first frame update
     void Start()
     {

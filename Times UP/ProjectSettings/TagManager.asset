@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - ChildToAdult
   - AdultToGrandparent
+  - Powerup
   layers:
   - Default
   - TransparentFX
