@@ -18668,7 +18668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aaacd732130b8b48be86ba8beed3001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivateAndDeactivate: {fileID: 0}
+  objectToActivateAndDeactivate: {fileID: 692809039}
   countdownText: {fileID: 457864157}
 --- !u!1001 &1619846818
 PrefabInstance:
@@ -25008,6 +25008,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 586128044, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
+      propertyPath: m_Volume
+      value: 0.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 586128045, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
+      propertyPath: m_Volume
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 586128046, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
+      propertyPath: m_Pitch
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8201210942667214829, guid: 6801984d9dae1c546986f8f2aa6b6aa4, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
