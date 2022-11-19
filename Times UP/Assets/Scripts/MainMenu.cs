@@ -36,5 +36,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(Abspann);
     }
 
+    public void ResetTheGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        print("The button is working");
+    }
+
 
 }

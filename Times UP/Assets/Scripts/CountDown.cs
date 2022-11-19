@@ -21,6 +21,7 @@ public class CountDown : MonoBehaviour
     void Start()
     {
         currentTime = startingTime;
+        
     }
 
     // Update is called once per frame

@@ -10,6 +10,7 @@ TagManager:
   - ChildToAdult
   - AdultToGrandparent
   - Powerup
+  - Gustav
   layers:
   - Default
   - TransparentFX
