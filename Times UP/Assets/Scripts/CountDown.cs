@@ -22,5 +22,10 @@ public class CountDown : MonoBehaviour
     {
         currentTime -= 1 * Time.deltaTime;
         countdownText.text = currentTime.ToString("00.0");
+
+        if (currentTime <= 3)
+        {
+            countdownText.color = Color.red;
+        }
     }
 }
