@@ -27,5 +27,11 @@ public class CountDown : MonoBehaviour
         {
             countdownText.color = Color.red;
         }
+
+        if (currentTime <= 0)
+        {
+            Time.timeScale = 0;
+            Destroy(GameObject.FindWithTag("Player"));
+        }
     }
 }
