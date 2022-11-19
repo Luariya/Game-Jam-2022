@@ -3,14 +3,14 @@ using UnityEngine;
 public class JumpingChar : MonoBehaviour
 {
     public bool isGrounded = false;
-    
+
 
     private Rigidbody2D _playerRigidbody;
     private void Start()
     {
 
     }
-    void Update ()
+    void Update()
     {
         Jump();
     }
